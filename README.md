@@ -23,7 +23,7 @@ mesh-sequence-player folder_to_meshes
 It is also possible to render the individual frames into a mp4 file. Currently, only one mesh view will be rendered. If an `output` path is provided, the `no-loop` option is automatically set to `True` and rendering will run with `1000.0 FPS` to render as fast as possible.
 
 ```
-mesh-sequence-player folder_to_meshes --output render.mp4
+mesh-sequence-player folder_to_meshes  --format *.ply --output render.mp4
 ```
 
 #### Lazy Loading
